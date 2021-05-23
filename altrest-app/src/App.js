@@ -5,10 +5,12 @@ import { BrowserRouter as Router, Route, Link, Switch, Redirect } from "react-ro
 import Banner from './Components/Banner';
 import Services from './Components/Services'
 // import { Route, Switch, Redirect } from "react-router-dom";
-import Features from './Components/Features';
+import Features from './Components/HowItWorks';
 import Footer from './Components/Footer';
 import Login from './Components/Login'
 import Signup from './Components/Signup';
+import AboutUs from './Components/AboutUs';
+import HowItWorks from './Components/HowItWorks'
 
 import altrest from './image/altrest.png';
 import Header from './Components/Header';
@@ -44,7 +46,7 @@ function App() {
         <Route exact path="/home">
             <Banner/>
             <Services/>
-            <Features/>
+            <HowItWorks/>
         </Route>
         <Route path="/login">
            <Login/>
@@ -55,9 +57,9 @@ function App() {
         <Route path="/features">
            <Features/>
         </Route>
-        <Route path="/">
-            <Redirect to="/home"/>
-            </Route>
+        <Route exact path="/about">
+           <AboutUs/>
+        </Route>
       </Switch>
           <Footer/>
     </div>

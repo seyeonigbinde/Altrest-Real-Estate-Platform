@@ -107,8 +107,8 @@ a:hover{
   line-height: 1.5;
 }
 .serv-header h2{
-padding: 1% 0;
-font-size: 2.4rem;
+  padding: 1% 0;
+  font-size: 2.4rem;
 }
 .services{
   display: flex;
@@ -164,6 +164,29 @@ font-size: 2.4rem;
 .features img:hover{
   border: 10px solid #81b214;
 }
+.about{
+  padding: 3% 10%;
+  line-height: 1.5;
+}
+.aboutimg{
+  background-image: url("https://images.unsplash.com/photo-1611216212569-d739dbe9ed40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2689&q=80");
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.about_caption{
+  font-size: 2.8rem;
+  background-color: #fb3640;
+  color: #fff;
+  width: 30%;
+  margin: 11.4% 0%;
+  padding: .5%;
+  position: absolute;
+  line-height: 1.5;
+}
+
 
 footer{
 	background-color:#81b214;
