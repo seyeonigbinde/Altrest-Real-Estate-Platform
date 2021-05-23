@@ -31,9 +31,9 @@ function App() {
             <img src={altrest} alt="logo"/>
         </div>
         <div className="links">
-            <Link to="/home" > Home</Link>
-            <Link to="/about" > About Us</Link>
-            <Link to="/features" >Features</Link>
+            <Link to="/"> Home</Link>
+            <Link to="/about"> About Us</Link>
+            <Link to="/features">Features</Link>
             <Link >Blog</Link>
             <Link >Contact Us</Link>
             {/* <Header/> */}
@@ -43,7 +43,7 @@ function App() {
         </div>
       </div>
       <Switch>
-        <Route exact path="/home">
+        <Route exact path="/">
             <Banner/>
             <Services/>
             <HowItWorks/>
@@ -54,10 +54,10 @@ function App() {
         <Route path="/signup">
            <Signup/>
         </Route>
-        <Route path="/features">
+        <Route exact path="/features">
            <Features/>
         </Route>
-        <Route exact path="/about">
+        <Route path="/about">
            <AboutUs/>
         </Route>
       </Switch>

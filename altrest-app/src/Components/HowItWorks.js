@@ -5,8 +5,8 @@ const HowItWorks = ()=> {
 
     return(
         
-    <div className="features">
-        <div className="other_features">
+    <div className="howitworks">
+        <div className="other_howitworks">
         <h2>Features of the App</h2>
         <br/>
         <hr/>
