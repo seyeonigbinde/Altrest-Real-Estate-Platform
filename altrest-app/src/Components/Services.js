@@ -15,7 +15,7 @@ const Services = ()=> {
         <h2>For Landlord</h2>
         <br/>
         <hr/>
-        <uL>
+        <ul>
             <li>
                 Manage Maintenance Request
             </li>
@@ -31,13 +31,13 @@ const Services = ()=> {
             <li>
                 Notices
             </li>
-        </uL>
+        </ul>
         </div>
         <div className="option">
         <h2>For Tenant</h2>
         <br/>
         <hr/>
-        <uL>
+        <ul>
             <li>
                 Online Maintenance Request
             </li>
@@ -47,13 +47,13 @@ const Services = ()=> {
             <li>
                 Rental Agreements & E-sign
             </li>
-        </uL>
+        </ul>
         </div>
         <div className="option">
         <h2>For Community Association </h2>
         <br/>
         <hr/>
-        <uL>
+        <ul>
             <li>
                 Communication with Home Ownwers and Non-owner Residents
             </li>
@@ -69,12 +69,12 @@ const Services = ()=> {
             <li>
                 Violation Reports
             </li>
-        </uL>
+        </ul>
         </div><div className="option">
         <h2> For Service Provider</h2>
         <br/>
         <hr/>
-        <uL>
+        <ul>
             <li>
                 Manage Invoices
             </li>
@@ -90,7 +90,7 @@ const Services = ()=> {
             <li>
                 Build Business Profile
             </li>
-        </uL>
+        </ul>
         </div>
         
     </div>

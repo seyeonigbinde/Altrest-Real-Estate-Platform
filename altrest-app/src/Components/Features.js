@@ -10,7 +10,7 @@ const Features = ()=> {
         <h2>Features of the App</h2>
         <br/>
         <hr/>
-        <uL>
+        <ul>
             <li>
                 Automatic Payments, Receipts & Confirmation
             </li>
@@ -32,7 +32,7 @@ const Features = ()=> {
             <li>
                 Request State Tracking
             </li>
-        </uL>
+        </ul>
         </div>  
         <div>
             <img src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80" alt="Home Design"/>

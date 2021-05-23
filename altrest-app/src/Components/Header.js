@@ -1,23 +1,27 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import altrest from '../image/altrest.png';
+
 
 const Header = ()=> {
 
+
     return(
+    <Router>
         <div className="header">
         <div className="logo">
             <img src={altrest} alt="logo"/>
         </div>
         <div className="links">
-            <a to="/movies" className="btn btn-success"> About Us</a>
-            <a to="/movies" className="btn btn-primary">For Landlord</a>
-            <a to="/movies" className="btn btn-primary">For Tenant</a>
-            <a className="btn btn-primary">For ServicePro</a>
-            <a className="btn btn-primary">Blog</a>
+            <Link to="/home" onClick={console.log("This is Good")}> Home</Link>
+            <Link to="/about" > About Us</Link>
+            <Link to="/features" >Features</Link>
+            <Link >Blog</Link>
+            <Link >Contact Us</Link>
         </div>
         </div>
+    </Router>
    );
 }
 
