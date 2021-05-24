@@ -22,7 +22,7 @@ color: #4f4f4f;
 *{
   box-sizing: border-box; 
    max-width:100%; 
-   /* border: 1px solid red;  */
+   border: 1px solid red; 
   margin: 0 auto;
  
 }
@@ -30,10 +30,10 @@ h1{
   font-size: 2.4rem;
 }
 h2{
-  font-size: 2.0rem;
+  font-size: 1.9rem;
 }
 h3{
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -137,36 +137,20 @@ a:hover{
 }
 
 .howitworks{
-  display: flex;
-  justify-content: space-evenly;
-  margin: 3% 0.8%;
+	display: flex;
+	justify-content: space-between;
+	margin: 2% 2%;
+  line-height: 1.5;
 }
-.other_howitworks{
-  background-color: #81b214;
-  color: #fff;
-  width: 30%;
-  text-align: left;
-  border-radius: 10px;
-  padding: 1% 2%;
-  box-shadow: 30px;
-}
-.other_howitworks li{
-  padding: 6% 0;
-}
-.other_howitworks:hover{
-  background-color: #ddffbc;
-  color: #4f4f4f;
-}
-.howitworks img{
-  width:80%;
-  height: 70vh;
-}
-.howitworks img:hover{
-  border: 10px solid #81b214;
+.howitworks div{
+	width: 24%;
+	text-align: center;
+	padding: 2% 0;
 }
 .about{
   padding: 3% 10%;
   line-height: 1.5;
+  text-align: left;
 }
 .aboutimg{
   background-image: url("https://images.unsplash.com/photo-1611216212569-d739dbe9ed40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2689&q=80");
@@ -186,17 +170,29 @@ a:hover{
   position: absolute;
   line-height: 1.5;
 }
-.features{
-  width: 80%;
+.about_vision{
+  background-color: #e4efe7;
+  width: 60%;
+  margin:auto;
+  border-radius: 10px;
+  line-height: 2;
+  padding: 1% 2%;
 }
-.features_links a{
+.features{
+  width: 100%;
+}
+.features_links{
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  margin: 2% 0;
 }
-.features_links a:active{
-color: red;
-text-decoration: underline;
+.features_links a{
+  width: 20%;
+}
+.features_links a:hover{
+border-bottom: 4px solid #81b214;
+background-color: #fff;
+color: #fb3640;
 }
 .featuresimg{
   background-image: url("https://images.unsplash.com/photo-1556912167-f556f1f39fdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1660&q=80");
@@ -214,6 +210,38 @@ text-decoration: underline;
   margin: 11.4% 0%;
   padding: .5%;
   position: absolute;
+  line-height: 1.5;
+}
+.feature_landlord{
+  width: 50%;
+  padding: 2% 2%;
+  border: 4px solid #e4efe7;
+  text-align: left;
+  line-height: 1.5;
+  margin: 2% 0;
+}
+.feature_tenant{
+  width: 50%;
+  padding: 2% 2%;
+  margin: 2% 10%;
+  border: 4px solid #e4efe7;
+  text-align: left;
+  line-height: 1.5;
+}
+.feature_community{
+  width: 50%;
+  padding: 2% 2%;
+  margin: 2% 35%;
+  border: 4px solid #e4efe7;
+  text-align: left;
+  line-height: 1.5;
+}
+.feature_service{
+  width: 50%;
+  padding: 2% 2%;
+  margin: 2% 50%;
+  border: 4px solid #e4efe7;
+  text-align: left;
   line-height: 1.5;
 }
 footer{
@@ -246,6 +274,151 @@ button{
   padding: 8px 15px;
   margin-top: 16px;
 }
+
+
+@media screen and (max-width: 500px) {
+
+  h1{
+    font-size: 1.6rem;
+  }
+  h2{
+    font-size: 1.2rem;
+  }
+  h3{
+    font-size: 1.0rem;
+  }
+  p{
+    font-size: .8rem;
+  }
+  .banner{
+    height: 40vh;
+  }
+  .bg_caption{
+    font-size: 1.4rem;
+    width: 75%;
+    margin: 30% 0%;
+    padding: 1.5%;
+  }
+  .serv-header h2{
+    font-size: 1.4rem;
+  }
+  .services{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2% 0.8%;
+    height: 60vh;
+  }
+  .option{
+    width: 45%;
+    padding: 1% 4%;
+    font-size: 0.8rem;
+    margin: 1% 0;
+  }
+  .option li{
+    padding: 3% 0;
+  }
+  
+  .howitworks{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 2%;
+    line-height: 1.5;
+  }
+  .howitworks div{
+    width: 24%;
+    text-align: center;
+    padding: 2% 0;
+  }
+  .about{
+    padding: 3% 10%;
+    line-height: 1.5;
+    text-align: left;
+  }
+  .about{
+    padding: 3% 4%;
+    line-height: 1.5;
+  }
+  .aboutimg{
+    height: 20vh;
+  }
+  .about_caption{
+    font-size: 1.8rem;
+    width: 40%;
+    margin: 14.4% 0%;
+  }
+  .about_vision{
+    width: 90%;
+  }
+  .logo{
+    width: 10%;
+  }
+  .login{
+    width:55%;
+    margin-left: 45%;
+    font-size: 0.6rem;
+  }
+  .login a{
+    padding: 1% 3%;
+    border-radius: 3px;
+  }
+  .links{
+    font-size: .7rem;
+    padding: 0 3%;
+    margin-right: 2%;
+    width: 90%;
+  }
+  .links a{
+    padding: 1% 1%;
+    width: 18%;
+  }
+  footer{
+    padding: 3% 1%;
+    font-size: 0.1rem;
+  }
+.howitworks{
+	margin: 3% 1%;
+}
+.howitworks div{
+	width: 22%;
+	padding: 1% 0;
+}
+.features_links a{
+  font-size: 0.8rem;
+}
+.featuresimg{
+  height: 20vh;
+}
+.features_caption{
+  font-size: 1.8rem;
+  width: 40%;
+  margin: 14.4% 0%;
+}
+.feature_landlord{
+  width: 80%;
+}
+.feature_tenant{
+  width: 80%;
+}
+.feature_community{
+  width: 80%;
+  margin: 2% 15%;
+
+}
+.feature_service{
+  width: 80%;
+  margin: 2% 20%;
+ 
+}
+}
+
+
+
+
+
+
+
+
+
 .password + .unmask {
   position: absolute;
   right: 12px;

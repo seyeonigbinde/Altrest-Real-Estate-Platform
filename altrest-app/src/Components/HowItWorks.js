@@ -5,38 +5,34 @@ const HowItWorks = ()=> {
 
     return(
         
-    <div className="howitworks">
-        <div className="other_howitworks">
-        <h2>Features of the App</h2>
-        <br/>
-        <hr/>
-        <ul>
-            <li>
-                Automatic Payments, Receipts & Confirmation
-            </li>
-            <li>
-                Automatic Rent Reminders
-            </li>
-            <li>
-                Auto-Late Fees with Recurring Fee Amount
-            </li>
-            <li>
-                Mobile Maintenance Requests
-            </li>
-            <li>
-                5-Second Video Upload
-            </li>
-            <li>
-                Auto-Notification to Landlords and Tenants
-            </li>
-            <li>
-                Request State Tracking
-            </li>
-        </ul>
-        </div>  
-        <div>
-            <img src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80" alt="Home Design"/>
+    <div> 
+        <div className="serv-header">
+        <h2>
+            How It Works
+        </h2>
         </div>
+            <section className="howitworks">
+        <div>
+            <i class="fas fa-chart-pie fa-2x"></i><br/>
+            <h3>Create An Account</h3><br/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, assumenda.</p>
+        </div>
+        <div>
+            <i class="fas fa-globe fa-2x"></i><br/>
+            <h3>Verify Your Email</h3><br/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, assumenda.</p>
+        </div>
+        <div>
+            <i class="fas fa-cog fa-2x"></i>
+            <h3>Select Your Role</h3><br/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, assumenda.</p>
+        </div>
+        <div>
+            <i class="fas fa-users fa-2x"></i>
+            <h3>Select Features</h3><br/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, assumenda.</p>
+        </div>
+    </section>
     </div>
      
     

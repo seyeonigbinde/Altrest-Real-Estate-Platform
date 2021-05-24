@@ -6,7 +6,7 @@ import Landlords from './Landlords';
 import Community from './Community';
 import ServicePro from './ServicePro';
 
-const Features = ()=> {
+const Feature = ()=> {
 
     return(
     <div className="features"> 
@@ -14,23 +14,23 @@ const Features = ()=> {
             <p className="features_caption">Features</p>
         </div>
         <div className="features_links">
-            <Link to="/landlords">For Landlords</Link>
-            <Link to="/tenants">For Tenants</Link>
-            <Link to="/community">For Community Associations</Link>
-            <Link to="/servicepro">For Service Providers</Link>
+            <Link to="/features/landlords">For Landlords</Link>
+            <Link to="/features/tenants">For Tenants</Link>
+            <Link to="/features/community">For Community Associations</Link>
+            <Link to="/features/servicepro">For Service Providers</Link>
         </div>
         <div>
         <Switch>
-            <Route path="/landlords">
+            <Route path="/features/landlords">
                 <Landlords/>
             </Route>
-            <Route path="/tenants">
+            <Route path="/features/tenants">
                 <Tenants/>
             </Route>
-            <Route path="/community">
+            <Route path="/features/community">
                 <Community/>
             </Route>
-            <Route path="/servicepro">
+            <Route path="/features/servicepro">
                 <ServicePro/>
             </Route>
         </Switch>
@@ -39,4 +39,4 @@ const Features = ()=> {
     )
 }
 
-export default Features;
+export default Feature;

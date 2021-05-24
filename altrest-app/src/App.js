@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Link, Switch, Redirect } from "react-ro
 import Banner from './Components/Banner';
 import Services from './Components/Services'
 // import { Route, Switch, Redirect } from "react-router-dom";
-import Features from './Components/HowItWorks';
+import Feature from './Components/Feature';
 import Footer from './Components/Footer';
 import Login from './Components/Login'
 import Signup from './Components/Signup';
@@ -54,11 +54,11 @@ function App() {
         <Route path="/signup">
            <Signup/>
         </Route>
-        <Route exact path="/features">
-           <Features/>
-        </Route>
         <Route path="/about">
            <AboutUs/>
+        </Route>
+        <Route path="/features">
+          <Feature/>
         </Route>
       </Switch>
           <Footer/>

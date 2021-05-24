@@ -15,8 +15,10 @@ const AboutUs = ()=> {
             <p>Our goal is to make ALTREST the most efficient real estate marketplace and solution portal that is meeting the needs of individuals on real estate and providing convenience.
             </p>
             <br/>
+            <div className="about_vision">
             <h2>Our Vision </h2><br/>
-            <p>Our vision is to be the only real estate company that provides an excellent & consistent customer experience 100% of the time. In everything we do, we think of our clients, the company and the individual team members respectively. Our strengths lie in our deep understanding of the market, our expertise and the understanding of the needs of the people. </p> 
+            <p> "Our vision is to be the only real estate company that provides an excellent & consistent customer experience 100% of the time. In everything we do, we think of our clients, the company and the individual team members respectively. Our strengths lie in our deep understanding of the market, our expertise and the understanding of the needs of the people." </p> 
+            </div>
             <br/>
             <h2> Our Core Values</h2><br/>
             <p>
