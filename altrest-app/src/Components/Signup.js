@@ -27,7 +27,7 @@ const Signup = () => {
         // }
     }
 
-    const errorMessage = "";
+    // const errorMessage = "";
 
 
     return(<section>

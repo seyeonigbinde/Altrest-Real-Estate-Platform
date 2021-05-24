@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Link, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter as Route, Link, Switch } from "react-router-dom";
 
 // import Header from './Components/Header';
 import Banner from './Components/Banner';
@@ -10,10 +10,11 @@ import Footer from './Components/Footer';
 import Login from './Components/Login'
 import Signup from './Components/Signup';
 import AboutUs from './Components/AboutUs';
-import HowItWorks from './Components/HowItWorks'
+import HowItWorks from './Components/HowItWorks';
+import Blog from './Components/Blog'
 
 import altrest from './image/altrest.png';
-import Header from './Components/Header';
+// import Header from './Components/Header';
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
             <Link to="/"> Home</Link>
             <Link to="/about"> About Us</Link>
             <Link to="/features">Features</Link>
-            <Link >Blog</Link>
+            <Link to="/blog">Blog</Link>
             <Link >Contact Us</Link>
             {/* <Header/> */}
         </div>
@@ -59,6 +60,9 @@ function App() {
         </Route>
         <Route path="/features">
           <Feature/>
+        </Route>
+        <Route path="/blog">
+          <Blog/>
         </Route>
       </Switch>
           <Footer/>

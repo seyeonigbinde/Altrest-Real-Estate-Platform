@@ -1,6 +1,6 @@
 // import axios from "axios";
 import React, {useState } from "react";
-import { useHistory } from 'react-router-dom';
+
 // import IconButton from "@material-ui/core/IconButton";
 // import InputLabel from "@material-ui/core/InputLabel";
 // import Visibility from "@material-ui/icons/Visibility";
@@ -13,7 +13,6 @@ import { useHistory } from 'react-router-dom';
     password: ""
 }
 const Login = () => {
-  const { push } = useHistory();
 
   const [userLogin, setUserLogin] = useState(credentials)
 
