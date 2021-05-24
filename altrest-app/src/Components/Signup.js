@@ -49,7 +49,7 @@ const Signup = () => {
             <div className="form-group">
                 <label htmlFor="password">Password:</label>
                 <input onChange={handleChange} value={state.password} name="password" id="password" type="password"   placeholder ="Password" className="password"/>
-                <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                {/* <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span> */}
             </div>
             {/* {
                 props.error && <div data-testid="errorAlert" className="alert alert-danger" role="alert">Error: {props.error}</div>
