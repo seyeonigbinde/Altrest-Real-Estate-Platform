@@ -40,7 +40,6 @@ function App() {
             {/* <Header/> */}
         </div>
         </div>
-          <hr/>
         </div>
       </div>
       <Switch>

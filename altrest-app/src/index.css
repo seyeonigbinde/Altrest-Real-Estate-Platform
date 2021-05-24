@@ -85,6 +85,9 @@ a:hover{
   color: #fff;
   width: 20%;
 }
+/* .form-group{
+  text-align: left;
+} */
 .logo{
   margin: 0.3% 4%;
   width: 5%;
@@ -339,7 +342,7 @@ button{
     line-height: 1.5;
   }
   .aboutimg{
-    height: 20vh;
+    height: 25vh;
   }
   .about_caption{
     font-size: 1.8rem;
@@ -386,7 +389,7 @@ button{
   font-size: 0.8rem;
 }
 .featuresimg{
-  height: 20vh;
+  height: 25vh;
 }
 .features_caption{
   font-size: 1.8rem;
@@ -407,8 +410,10 @@ button{
 .feature_service{
   width: 80%;
   margin: 2% 20%;
- 
 }
+label{
+  font-size: .8rem;
+ }
 }
 
 

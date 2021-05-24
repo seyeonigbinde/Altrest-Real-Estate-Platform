@@ -5,7 +5,7 @@ const Footer = ()=> {
 
     return(
         <footer>
-            <p>Copyright &copy; 2021 ALTREST Technologies Ltd & Designed by Stevens Design Tech</p>
+            <p>Copyright &copy; 2021 ::: Designed by Stevens Design Tech.</p>
         </footer>
     )
 }
