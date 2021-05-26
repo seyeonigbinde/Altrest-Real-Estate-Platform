@@ -47,6 +47,10 @@ code {
 /* .header_fixed{
   
 } */
+a{
+  text-decoration: none;
+  color: #4f4f4f
+}
 .links{
   display: flex;
   justify-content: space-between;
@@ -55,14 +59,14 @@ code {
   padding: 0 2%;
   margin-right: 4%;
 }
-a{
+.links a{
   padding: 1% 2%;
   cursor: pointer;
   width: 15%;
   text-decoration: none;
   color: #4f4f4f
 }
-a:hover{
+.links a:hover{
   background-color: #81b214;
   border-radius: 5px;
   color: #fff;
@@ -115,21 +119,24 @@ a:hover{
 .serv-header h2{
   padding: 1% 0;
   font-size: 2.4rem;
+  /* margin-top: 10%; */
 }
 .services{
   display: flex;
   justify-content: space-between;
   margin: 2% 0.8%;
-  background-color: #fdfaf6;
+  /* background-color: #fdfaf6; */
   height: 50vh;
+  box-shadow: 3px 2px 10px #fdfaf6;
 }
 .option{
-  background-color: #e4efe7;
+  /* background-color: #e4efe7; */
   width: 23%;
   text-align: left;
   border-radius: 10px;
   padding: 1% 2%;
   box-shadow: 30px;
+  box-shadow: 6px 4px 10px #fb3640;
 }
 .option li{
   padding: 6% 0;
@@ -138,17 +145,24 @@ a:hover{
   background-color: #fb3640;
   color: #fff;
 }
-
+.howitworks-header h2{
+  padding: 1% 0;
+  font-size: 2.4rem;
+  margin-top: 10%;
+}
 .howitworks{
 	display: flex;
-	justify-content: space-between;
-	margin: 2% 2%;
+	justify-content: space-evenly;
+	margin: 0% 2%;
   line-height: 1.5;
+  height: 30vh;
+  margin-bottom: 10%;
 }
 .howitworks div{
-	width: 24%;
+	width: 20%;
 	text-align: center;
 	padding: 2% 0;
+
 }
 .about{
   padding: 3% 10%;
@@ -174,12 +188,13 @@ a:hover{
   line-height: 1.5;
 }
 .about_vision{
-  background-color: #e4efe7;
+  /* background-color: #e4efe7; */
   width: 60%;
   margin:auto;
   border-radius: 10px;
   line-height: 2;
   padding: 1% 2%;
+  box-shadow: 6px 4px 10px #81b214;
 }
 .features{
   width: 100%;
@@ -191,6 +206,7 @@ a:hover{
 }
 .features_links a{
   width: 20%;
+  text-decoration: underline;
 }
 .features_links a:hover{
 border-bottom: 4px solid #81b214;
@@ -247,6 +263,58 @@ color: #fb3640;
   text-align: left;
   line-height: 1.5;
 }
+
+section{
+  margin: 3% 2%;
+}
+form {
+  border: 1px solid #999;
+  padding: 0.25em;
+  background-color: #fdfaf6;
+  width: 32%;
+  margin: auto;
+}
+input{
+  height: 5vh;
+  margin: 1% 0;
+  text-align: left;
+  width: 20em;
+}
+label{
+  float: left;
+	width: 8em;
+	text-align: left;
+  align-items: center;
+  padding-top: 4%;
+	padding-right: 0.5em;
+  font-size: 1.2rem;
+  margin: 0 0%;
+}
+button{
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 8px 15px;
+  margin-top: 16px;
+}
+.blogimg{
+  background-image: url("./image//features-image-1.jpeg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.blog_caption{
+  font-size: 2.8rem;
+  background-color: #fb3640;
+  color: #fff;
+  width: 30%;
+  margin: 11.4% 0%;
+  padding: .5%;
+  position: absolute;
+  line-height: 1.5;
+}
 footer{
 	background-color:#81b214;
 	color: white;
@@ -257,25 +325,6 @@ footer{
   left: 0;
   bottom: 0;
   width: 100%; */
-}
-section{
-  margin: 3% 2%;
-}
-input{
-  width: 30%;
-  height: 5vh;
-  margin: 1% 0;
-  align-items: right;
-}
-label{
- font-size: 1.4rem;
-}
-button{
-  border: none;
-  background-color: black;
-  color: white;
-  padding: 8px 15px;
-  margin-top: 16px;
 }
 
 
@@ -315,7 +364,7 @@ button{
     width: 45%;
     padding: 1% 4%;
     font-size: 0.8rem;
-    margin: 1% 0;
+    margin: 3% 0;
   }
   .option li{
     padding: 3% 0;
@@ -381,9 +430,15 @@ button{
 .howitworks{
 	margin: 3% 1%;
 }
+.howitworks{
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 .howitworks div{
-	width: 22%;
-	padding: 1% 0;
+	width: 40%;
+	padding: 1% 2%;
+  height: 25vh;
+  flex-wrap: wrap;
 }
 .features_links a{
   font-size: 0.8rem;
@@ -413,6 +468,9 @@ button{
 }
 label{
   font-size: .8rem;
+ }
+ footer{
+  margin-top: 28%;
  }
 }
 

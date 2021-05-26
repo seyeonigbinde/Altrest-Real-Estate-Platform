@@ -14,10 +14,10 @@ const Feature = ()=> {
             <p className="features_caption">Features</p>
         </div>
         <div className="features_links">
-            <Link to="/features/landlords">For Landlords</Link>
-            <Link to="/features/tenants">For Tenants</Link>
-            <Link to="/features/community">For Community Associations</Link>
-            <Link to="/features/servicepro">For Service Providers</Link>
+            <Link to="/features/landlords"><b>For Landlords</b></Link>
+            <Link to="/features/tenants"><b>For Tenants</b></Link>
+            <Link to="/features/community"><b>For Community Associations</b></Link>
+            <Link to="/features/servicepro"><b>For Service Providers</b></Link>
         </div>
         <div>
         <Switch>

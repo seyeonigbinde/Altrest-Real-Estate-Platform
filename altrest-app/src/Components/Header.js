@@ -14,7 +14,7 @@ const Header = ()=> {
             <img src={altrest} alt="logo"/>
         </div>
         <div className="links">
-            <Link to="/home" onClick={console.log("This is Good")}> Home</Link>
+            <Link to="/home"> Home</Link>
             <Link to="/about" > About Us</Link>
             <Link to="/features" >Features</Link>
             <Link >Blog</Link>

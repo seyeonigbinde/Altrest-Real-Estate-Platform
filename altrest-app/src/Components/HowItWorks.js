@@ -6,7 +6,7 @@ const HowItWorks = ()=> {
     return(
         
     <div> 
-        <div className="serv-header">
+        <div className="howitworks-header">
         <h2>
             How It Works
         </h2>

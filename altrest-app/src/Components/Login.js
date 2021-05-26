@@ -65,7 +65,7 @@ const Login = () => {
   return (<section>
     <div>
       <div data-testid="loginForm" className="login-form">
-        <h1>Login</h1>
+        <h1>Login</h1><br/>
 
         <form onSubmit={login}>
         <div className="form-group">

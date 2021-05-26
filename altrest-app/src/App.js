@@ -29,12 +29,12 @@ function App() {
         <div>
         <div className="header">
         <div className="logo">
-            <img src={altrest} alt="logo"/>
+           <Link to="/"> <img src={altrest} alt="logo"/></Link>
         </div>
         <div className="links">
             <Link to="/"> Home</Link>
             <Link to="/about"> About Us</Link>
-            <Link to="/features">Features</Link>
+            <Link to="/features/landlords">Features</Link>
             <Link to="/blog">Blog</Link>
             <Link >Contact Us</Link>
             {/* <Header/> */}
@@ -57,7 +57,7 @@ function App() {
         <Route path="/about">
            <AboutUs/>
         </Route>
-        <Route path="/features">
+        <Route exact path="/features/landlords">
           <Feature/>
         </Route>
         <Route path="/blog">
