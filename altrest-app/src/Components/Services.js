@@ -4,7 +4,7 @@ import React from 'react';
 const Services = ()=> {
 
     return(
-        <>
+        <div className="service-container">
         <div className="serv-header">
             <h2>
                 Our Services
@@ -95,7 +95,7 @@ const Services = ()=> {
         
     </div>
      
-    </>
+    </div>
     )
 }
 

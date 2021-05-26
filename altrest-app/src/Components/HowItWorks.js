@@ -5,13 +5,13 @@ const HowItWorks = ()=> {
 
     return(
         
-    <div> 
+    <div className="howitworks-container"> 
         <div className="howitworks-header">
         <h2>
             How It Works
         </h2>
         </div>
-            <section className="howitworks">
+        <section className="howitworks">
         <div>
             <i class="fas fa-chart-pie fa-2x"></i><br/>
             <h3>Create An Account</h3><br/>
