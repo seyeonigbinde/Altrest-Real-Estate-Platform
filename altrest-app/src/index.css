@@ -423,7 +423,7 @@ footer{
   .howitworks div{
     width: 40%;
     padding: 1% 2%;
-    margin: 2% 0;
+    /* margin: 1% 0; */
   }
   .about{
     padding: 3% 10%;
@@ -460,7 +460,7 @@ footer{
     width: 40%;
     margin: 14.4% 0%;
   }
-  .features p{
+  .feature_service, .feature_community, .feature_landlord, .feature_tenant{
     font-size: .8rem;
    }
   footer{
@@ -504,6 +504,9 @@ footer{
   .howitworks-container{
     margin-top:10%;
     margin-bottom: 35%;
+  }
+  .howitworks-header h2{
+    margin-top: 15%;
   }
   .serv-header h2{
     font-size: 1.4rem;
