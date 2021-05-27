@@ -7,7 +7,7 @@ const Banner = ()=> {
         
         <div className="banner">
         <div className="bg_caption">
-        <h1>ALTREST is the No. 1 Digital Real Estate Marketplace</h1>
+        <h1> The Tenant Management Platform </h1>
         </div>
         </div>
     )

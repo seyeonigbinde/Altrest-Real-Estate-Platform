@@ -11,9 +11,11 @@ import Login from './Components/Login'
 import Signup from './Components/Signup';
 import AboutUs from './Components/AboutUs';
 import HowItWorks from './Components/HowItWorks';
-import Blog from './Components/Blog'
+import Blog from './Components/Blog';
+import Dashboard from './Components/Dashboard'
 
 import altrest from './image/altrest.png';
+import PrivateRoute from './Utils/PrivateRoute'
 // import Header from './Components/Header';
 
 function App() {
@@ -29,12 +31,12 @@ function App() {
         <div>
         <div className="header">
         <div className="logo">
-           <Link to="/"> <img src={altrest} alt="logo"/></Link>
+           <Link exact to="/"> <img src={altrest} alt="logo"/></Link>
         </div>
         <div className="links">
             <Link to="/"> Home</Link>
             <Link to="/about"> About Us</Link>
-            <Link to="/features/landlords">Features</Link>
+            <Link exact to="/features/landlords">Features</Link>
             <Link to="/blog">Blog</Link>
             <Link >Contact Us</Link>
             {/* <Header/> */}
@@ -63,6 +65,10 @@ function App() {
         <Route path="/blog">
           <Blog/>
         </Route>
+        <Route path="/dashboard">
+          <Dashboard/>
+        </Route>
+        {/* <PrivateRoute path='/dashboard' component={Dashboard} /> */}
       </Switch>
           <Footer/>
     </div>

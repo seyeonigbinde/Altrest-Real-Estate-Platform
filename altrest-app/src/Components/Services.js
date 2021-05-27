@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { BrowserRouter as Route, Link} from "react-router-dom";
 
 const Services = ()=> {
 
@@ -7,7 +7,7 @@ const Services = ()=> {
         <div className="service-container">
         <div className="serv-header">
             <h2>
-                Our Services
+                Features
             </h2>
         </div>
     <div className="services">
@@ -30,7 +30,8 @@ const Services = ()=> {
             </li>
             <li>
                 Notices
-            </li>
+            </li><br/>
+            <Link to="/features/landlords">Read More...</Link>
         </ul>
         </div>
         <div className="option">
@@ -46,7 +47,8 @@ const Services = ()=> {
             </li>
             <li>
                 Rental Agreements & E-sign
-            </li>
+            </li><br/>
+            <Link to="/features/tenants">Read More...</Link>
         </ul>
         </div>
         <div className="option">
@@ -64,11 +66,9 @@ const Services = ()=> {
                 Online Payment of Dues
             </li>
             <li>
-                Announcements
-            </li>
-            <li>
-                Violation Reports
-            </li>
+            Announcements & Violation Reports
+            </li><br/>
+            <Link to="/features/community">Read More...</Link>
         </ul>
         </div><div className="option">
         <h2> For Service Provider</h2>
@@ -90,7 +90,10 @@ const Services = ()=> {
             <li>
                 Build Business Profile
             </li>
-        </ul>
+        </ul><br/>
+        <Route>
+        <Link to="/features/servicepro">Read More...</Link>
+        </Route>
         </div>
         
     </div>

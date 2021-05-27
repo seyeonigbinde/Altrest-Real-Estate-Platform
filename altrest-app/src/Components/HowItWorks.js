@@ -13,24 +13,24 @@ const HowItWorks = ()=> {
         </div>
         <section className="howitworks">
         <div>
-            <i class="fas fa-chart-pie fa-2x"></i><br/>
+            <i className="fas fa-chart-pie fa-2x"></i><br/>
             <h3>Create An Account</h3><br/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, assumenda.</p>
+            <p>Register your details by filling our signup form</p>
         </div>
         <div>
-            <i class="fas fa-globe fa-2x"></i><br/>
+            <i className="fas fa-globe fa-2x"></i><br/>
             <h3>Verify Your Email</h3><br/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, assumenda.</p>
+            <p>Check your email for the verification link.</p>
         </div>
         <div>
-            <i class="fas fa-cog fa-2x"></i>
+            <i className="fas fa-cog fa-2x"></i>
             <h3>Select Your Role</h3><br/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, assumenda.</p>
+            <p>Select your role on the platform (Landlord, Tenant or Community Association).</p>
         </div>
         <div>
-            <i class="fas fa-users fa-2x"></i>
+            <i className="fas fa-users fa-2x"></i>
             <h3>Select Features</h3><br/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, assumenda.</p>
+            <p>Select the services you want to have access to on the platform</p>
         </div>
     </section>
     </div>
