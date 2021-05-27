@@ -65,10 +65,10 @@ function App() {
         <Route path="/blog">
           <Blog/>
         </Route>
-        <Route path="/dashboard">
+        {/* <Route path="/dashboard">
           <Dashboard/>
-        </Route>
-        {/* <PrivateRoute path='/dashboard' component={Dashboard} /> */}
+        </Route> */}
+        <PrivateRoute path='/dashboard' component={Dashboard} />
       </Switch>
           <Footer/>
     </div>
