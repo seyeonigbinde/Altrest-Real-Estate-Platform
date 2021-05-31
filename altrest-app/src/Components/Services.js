@@ -12,7 +12,7 @@ const Services = ()=> {
         </div>
     <div className="services">
         <div className="option">
-        <h2>For Landlord</h2>
+        <h3>For Landlord</h3>
         <br/>
         <hr/>
         <ul>
@@ -35,7 +35,7 @@ const Services = ()=> {
         </ul>
         </div>
         <div className="option">
-        <h2>For Tenant</h2>
+        <h3>For Tenant</h3>
         <br/>
         <hr/>
         <ul>
@@ -52,7 +52,7 @@ const Services = ()=> {
         </ul>
         </div>
         <div className="option">
-        <h2>For Community Association </h2>
+        <h3>For Community Association </h3>
         <br/>
         <hr/>
         <ul>
@@ -71,7 +71,7 @@ const Services = ()=> {
             <Link to="/features/community">Read More...</Link>
         </ul>
         </div><div className="option">
-        <h2> For Service Provider</h2>
+        <h3> For Service Provider</h3>
         <br/>
         <hr/>
         <ul>

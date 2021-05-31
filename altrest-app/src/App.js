@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Route, Link, NavLink, Switch } from "react-router-dom";
 
 // import Header from './Components/Header';
 import Banner from './Components/Banner';
@@ -12,7 +12,9 @@ import Signup from './Components/Signup';
 import AboutUs from './Components/AboutUs';
 import HowItWorks from './Components/HowItWorks';
 import Blog from './Components/Blog';
-import Dashboard from './Components/Dashboard'
+import AddBlog from './Components/AddBlog';
+import Dashboard from './Components/Dashboard';
+
 
 import altrest from './image/altrest.png';
 import PrivateRoute from './Utils/PrivateRoute'
@@ -20,6 +22,7 @@ import PrivateRoute from './Utils/PrivateRoute'
 
 function App() {
   return (
+    <>
     <div className="App">
       <div className="header_fixed">
        <div className="login">
@@ -31,13 +34,13 @@ function App() {
         <div>
         <div className="header">
         <div className="logo">
-           <Link exact to="/"> <img src={altrest} alt="logo"/></Link>
+           <Link exact to="/home"> <img src={altrest} alt="logo"/></Link>
         </div>
         <div className="links">
-            <Link to="/"> Home</Link>
-            <Link to="/about"> About Us</Link>
-            <Link exact to="/features/landlords">Features</Link>
-            <Link to="/blog">Blog</Link>
+            <NavLink activeStyle={{ backgroundColor: "#81b214", borderRadius: "5px", color: "#fff"}} to="/home"> Home</NavLink>
+            <NavLink activeStyle={{ backgroundColor: "#81b214", borderRadius: "5px", color: "#fff"}} to="/about"> About Us</NavLink>
+            <NavLink activeStyle={{ backgroundColor: "#81b214", borderRadius: "5px", color: "#fff"}} exact to="/features/landlords">Features</NavLink>
+            <NavLink activeStyle={{ backgroundColor: "#81b214", borderRadius: "5px", color: "#fff"}} to="/blog">Blog</NavLink>
             <Link >Contact Us</Link>
             {/* <Header/> */}
         </div>
@@ -45,7 +48,7 @@ function App() {
         </div>
       </div>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/home">
             <Banner/>
             <Services/>
             <HowItWorks/>
@@ -65,14 +68,20 @@ function App() {
         <Route path="/blog">
           <Blog/>
         </Route>
-        {/* <Route path="/dashboard">
+        <Route path="/dashboard">
           <Dashboard/>
-        </Route> */}
-        <PrivateRoute path='/dashboard' component={Dashboard} />
+        </Route>
+        {/* <PrivateRoute path='/dashboard' component={Dashboard} /> */}
+        <Route path="/addblog">
+          <AddBlog/>
+        </Route>
       </Switch>
           <Footer/>
     </div>
-    
+    <div>
+     
+    </div>
+    </>
   );
 }
 

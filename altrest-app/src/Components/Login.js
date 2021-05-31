@@ -38,14 +38,15 @@ const Login = () => {
 // ((userLogin.username === "") || (userLogin.password === "")) &&  "Username or Password not valid" 
 
   return (<section>
-    <div>
+    <div className="form_section">
       <div data-testid="loginForm" className="login-form">
         <h1>Login</h1><br/>
 
         <form onSubmit={login}>
-        <div className="form-group">
+        <div className="form-group form-label mt-3">
           <label htmlFor="username">Username:  </label>
           <input
+            className="form-control"
             type="text"
             name="username"
             data-testid="username"
@@ -54,9 +55,10 @@ const Login = () => {
             placeholder ="Enter Username"
           />
           </div>
-         <div className="form-group">
+         <div className="form-group form-label mt-3">
           <label htmlFor="password">Password: </label>
           <input
+            className="form-control"
             type="password"
             name="password"
             data-testid="password"
