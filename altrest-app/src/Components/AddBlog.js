@@ -58,7 +58,7 @@ const AddBlog = ()=> {
 
     const handleSubmit = (e) => {
 		e.preventDefault();
-    	axios.post(`http://localhost:5000/api/movies`, blog)
+    	axios.post(``, blog)
       .then(res=>{
        setBlog(res.data);
        console.log(res.data)

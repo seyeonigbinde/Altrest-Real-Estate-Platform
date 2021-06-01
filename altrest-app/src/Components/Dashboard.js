@@ -12,7 +12,7 @@ const Dashboard = ()=> {
         axiosWithAuth().post('/logout')
         .then(res=> {
           localStorage.removeItem("token");
-          window.location.href = "/home";
+          window.location.href = "/";
         })
         .catch(err=> {
           console.log(err);

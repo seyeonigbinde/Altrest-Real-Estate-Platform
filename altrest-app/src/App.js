@@ -33,7 +33,7 @@ function App() {
         <div>
         <div className="header">
         <div className="logo">
-           <Link exact to="/home"> <img src={altrest} alt="logo"/></Link>
+           <Link exact to="/"> <img src={altrest} alt="logo"/></Link>
         </div>
         <div className="links">
             <NavLink activeStyle={{ backgroundColor: "#81b214", borderRadius: "5px", color: "#fff"}} to="/home"> Home</NavLink>
@@ -47,7 +47,7 @@ function App() {
         </div>
       </div>
       <Switch>
-        <Route exact path="/home">
+        <Route exact path="/">
             <Banner/>
             <Services/>
             <HowItWorks/>
