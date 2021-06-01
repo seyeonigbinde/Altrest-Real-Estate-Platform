@@ -36,7 +36,7 @@ function App() {
            <Link exact to="/"> <img src={altrest} alt="logo"/></Link>
         </div>
         <div className="links">
-            <NavLink activeStyle={{ backgroundColor: "#81b214", borderRadius: "5px", color: "#fff"}} to="/"> Home</NavLink>
+            <NavLink to="/"> Home</NavLink>
             <NavLink activeStyle={{ backgroundColor: "#81b214", borderRadius: "5px", color: "#fff"}} to="/about"> About Us</NavLink>
             <NavLink activeStyle={{ backgroundColor: "#81b214", borderRadius: "5px", color: "#fff"}} exact to="/features/landlords">Features</NavLink>
             <NavLink activeStyle={{ backgroundColor: "#81b214", borderRadius: "5px", color: "#fff"}} to="/blog">Blog</NavLink>
