@@ -23,9 +23,9 @@ const Dashboard = ()=> {
        <div className="container">
             <div className="row">
                 <div className="col-md-8 dashboard_header">   
-                  <Link href="#" class="list-group-item-sm list-group-item-action-sm p-3">My Dashboard</Link>
-                  <Link href="#" class="list-group-item-sm list-group-item-action-sm p-3">My Profile</Link>
-                  <Link  onClick={signOut} class="list-group-item-sm list-group-item-action-sm p-3">Sign Out</Link> </div>
+                  <Link href="#" className="list-group-item-sm list-group-item-action-sm p-3">My Dashboard</Link>
+                  <Link href="#" className="list-group-item-sm list-group-item-action-sm p-3">My Profile</Link>
+                  <Link  onClick={signOut} className="list-group-item-sm list-group-item-action-sm p-3">Sign Out</Link> </div>
             </div>
             <div className="row">
                 <div className="col-md-8 p-4"> Welcome to the Dashboard of Seye Onigbinde  </div>
