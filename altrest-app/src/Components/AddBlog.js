@@ -4,9 +4,8 @@ import { useParams, useHistory, Link } from 'react-router-dom';
 import axios from 'axios';
 import * as yup from 'yup';
 
-import aboutus_image_1 from '../image/aboutus_image_1.jpeg';
+// import aboutus_image_1 from '../image/aboutus_image_1.jpeg';
 import blogSchema from '../Utils/blogSchema';
-import { axiosWithAuth} from '../Utils/axiosWithAuth'
 
 const initialBlogValues = {
     title: '',
@@ -74,16 +73,7 @@ const AddBlog = ()=> {
 		e.preventDefault();
 		setSeeProfile(!seeProfile);
 	  };
-    const signOut = () => {
-        axiosWithAuth().post('/logout')
-        .then(res=> {
-          localStorage.removeItem("token");
-          window.location.href = "/";
-        })
-        .catch(err=> {
-          console.log(err);
-        })
-      };
+    
     return(
        
         <div className="container-sm">
@@ -126,11 +116,11 @@ const AddBlog = ()=> {
                     </p>
                     { seeProfile && 
                   <div class="list-group list-group-flush ">
-                  <a href="#" class="list-group-item-sm list-group-item-action-sm p-3">My Profile</a>
+                  {/* <a href="#" class="list-group-item-sm list-group-item-action-sm p-3">My Profile</a>
                   <a href="#" class="list-group-item-sm list-group-item-action-sm p-3">My Stories</a>
                   <a href="#" class="list-group-item-sm list-group-item-action-sm p-3">Link</a>
                   <a href="#" class="list-group-item-sm list-group-item-action-sm p-3">Link</a>
-                  <a href="#" class="list-group-item-sm list-group-item-action-sm p-3">Sign Out</a>
+                  <a href="#" class="list-group-item-sm list-group-item-action-sm p-3">Sign Out</a> */}
                 </div>
                     }
                 </div>

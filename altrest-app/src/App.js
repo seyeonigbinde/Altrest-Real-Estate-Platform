@@ -4,7 +4,6 @@ import { BrowserRouter as Route, Link, NavLink, Switch } from "react-router-dom"
 // import Header from './Components/Header';
 import Banner from './Components/Banner';
 import Services from './Components/Services'
-// import { Route, Switch, Redirect } from "react-router-dom";
 import Feature from './Components/Feature';
 import Footer from './Components/Footer';
 import Login from './Components/Login'
@@ -17,7 +16,7 @@ import Dashboard from './Components/Dashboard';
 
 
 import altrest from './image/altrest.png';
-import PrivateRoute from './Utils/PrivateRoute'
+// import PrivateRoute from './Utils/PrivateRoute'
 // import Header from './Components/Header';
 
 function App() {
