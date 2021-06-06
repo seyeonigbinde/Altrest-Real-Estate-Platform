@@ -40,7 +40,7 @@ function App() {
             <NavLink activeStyle={{ backgroundColor: "#81b214", borderRadius: "5px", color: "#fff"}} to="/about"> About Us</NavLink>
             <NavLink activeStyle={{ backgroundColor: "#81b214", borderRadius: "5px", color: "#fff"}} exact to="/features/landlords">Features</NavLink>
             <NavLink activeStyle={{ backgroundColor: "#81b214", borderRadius: "5px", color: "#fff"}} to="/blog">Blog</NavLink>
-            <Link >Contact Us</Link>
+            <Link >Contact</Link>
             {/* <Header/> */}
         </div>
         </div>
