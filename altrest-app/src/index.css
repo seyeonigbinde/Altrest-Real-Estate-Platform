@@ -283,7 +283,7 @@ section{
   border: 2px solid #81b214;
   padding: 0.25em;
   /* background-color: #fdfaf6; */
-  width: 50%;
+  width: 60%;
   margin: auto;
   margin-bottom: 3%;
   margin-top: 3%;
@@ -323,9 +323,9 @@ button{
 .blog_container{
   display: flex;
   justify-content: space-between;
-  width: 60%;
+  width: 80%;
   padding: 2%;
-  margin: 2%;
+  margin: 2% 10%;
   border: 1px solid #4f4f4f;
   border-radius: 10px;
 }
@@ -349,7 +349,7 @@ button{
   font-family: "Playfair Display", Georgia, "Times New Roman", serif
 }
 .blog_image{
-width: 100%;
+width: 80%;
 height: 20vh;
 float: right;
 margin-top: 8%;
@@ -402,15 +402,17 @@ footer p{
   display: flex;
   justify-content: center;
 }
-/* footer i:hover{
-  background-color: #4f4f4f;
-} */
+.footer_social{
+  display: flex;
+  justify-content: space-evenly;
+  width: 10%;
+}
 
 @media screen and (max-width: 900px) {
 
   .login{
-    width:60%;
-    margin-left: 40%;
+    width:80%;
+    margin-left: 20%;
     font-size: 0.7rem;
   }
 
@@ -442,13 +444,15 @@ footer p{
     width: 10%;
   }
   .login{
-    width:55%;
-    margin-left: 45%;
+    margin-left: 10%;
     font-size: 0.6rem;
   }
   .login a{
     padding: 1% 4%;
     border-radius: 3px;
+  }
+  .form_section{
+    width: 80%
   }
   .links{
     font-size: .9rem;
@@ -518,9 +522,7 @@ footer p{
   .about p{
    font-size: .8rem;
   }
-  .aboutimg{
-    height: 25vh;
-  }
+
   .about_caption{
     font-size: 1.8rem;
     width: 40%;
@@ -533,7 +535,7 @@ footer p{
   .features_links a{
     font-size: 0.8rem;
   }
-  .featuresimg{
+  .featuresimg, .aboutimg, .blogimg{
     height: 25vh;
   }
   .features_caption{
@@ -544,10 +546,20 @@ footer p{
   .feature_service, .feature_community, .feature_landlord, .feature_tenant{
     font-size: .8rem;
    }
+   .blog p{
+    font-size: .8rem;
+   }
+   .blog_caption{
+     font-size: 1.8rem;
+     width: 40%;
+     margin: 14.4% 0%;
+   }
   footer{
-    /* margin-top: 30%; */
     padding: 3% 1%;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
+   }
+   .footer_social{
+     width: 20%;
    }
 }
 @media screen and (max-width: 500px) {
@@ -613,7 +625,23 @@ footer p{
 label{
   font-size: .8rem;
  }
-
+ .blog_content{
+  max-width: 80%;
+  border: 1px solid #81b214;
+}
+.blog_preview{
+  font-size: .6rem;
+}
+.blog_title{
+  font-size: 1.8rem;
+}
+.blog_image{
+width: 80%;
+height: 10vh;
+}
+.blog_footer{
+  font-size: 0.5rem;
+}
 }
 
 
