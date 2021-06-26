@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Route, NavLink, Switch} from "react-router-dom";
+import { BrowserRouter as Router, Route, NavLink, Switch} from "react-router-dom";
 
 import Tenants from './Tenants';
 import Landlords from './Landlords';
@@ -19,7 +19,6 @@ const Feature = ()=> {
             <NavLink activeStyle={{borderBottom: "4px solid #81b214", color: "red", textDecoration: "none"}} to="/features/community"><b>For Community Associations</b></NavLink>
             <NavLink activeStyle={{borderBottom: "4px solid #81b214", color: "red", textDecoration: "none"}}  to="/features/servicepro"><b>For Service Providers</b></NavLink>
         </div>
-        <p className="features_select">Select one option above</p>
         <div>
         <Switch>
             <Route path="/features/landlords">
@@ -36,6 +35,7 @@ const Feature = ()=> {
             </Route>
         </Switch>
         </div>
+        
     </div>
     )
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Footer = ()=> {
+const Landlords = ()=> {
 
     return(
         <div className="feature_landlord">
@@ -21,4 +21,4 @@ const Footer = ()=> {
     )
 }
 
-export default Footer;
+export default Landlords;

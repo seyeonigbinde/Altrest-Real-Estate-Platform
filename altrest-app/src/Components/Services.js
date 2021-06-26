@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Route, Link} from "react-router-dom";
+import { BrowserRouter as Router, Route, Link} from "react-router-dom";
 
 const Services = ()=> {
 
@@ -48,7 +48,7 @@ const Services = ()=> {
             <li>
                 Rental Agreements & E-sign
             </li><br/>
-            <Link to="/features/tenants">Read More...</Link>
+            <Link exact to="/features/tenants">Read More...</Link>
         </ul>
         </div>
         <div className="option">

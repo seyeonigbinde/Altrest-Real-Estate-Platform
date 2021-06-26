@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Route, Link, NavLink, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, NavLink, Switch } from "react-router-dom";
 
 // import Header from './Components/Header';
 import Banner from './Components/Banner';
@@ -24,12 +24,12 @@ function App() {
     <>
     <div className="App">
       <div className="header_fixed">
-       <div className="login">
+       {/* <div className="login">
           <Link to="/signup">Sign Up</Link>
-              <p>Already have an account?</p>
+              <p>Already have an account?</p> */}
         {/* <Link data-testid="logoutButton" onClick={logout}>logout</Link> */}
-          <Link to="/login" >Log in</Link>
-        </div>
+          {/* <Link to="/login" >Log in</Link> */}
+        {/* </div> */}
         <div>
         <div className="header">
         <div className="logo">
@@ -61,7 +61,7 @@ function App() {
         <Route path="/about">
            <AboutUs/>
         </Route>
-        <Route exact path="/features/landlords">
+        <Route path="/features">
           <Feature/>
         </Route>
         <Route path="/blog">
