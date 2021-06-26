@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Link, NavLink, Switch } from "react-router-dom";
+import { Route, Link, NavLink, Switch } from "react-router-dom";
 
 // import Header from './Components/Header';
 import Banner from './Components/Banner';
