@@ -578,7 +578,7 @@ footer p{
     font-size: 1.0rem;
   }
   p{
-    font-size: .8rem;
+    font-size: .7rem;
   }
   .login{
     margin-left: 45%;
@@ -590,11 +590,14 @@ footer p{
   .login p{
     font-size: 0.6rem;
   }
-  .links{
-    font-size: .7rem;
+  .links a{
+    font-size: .6rem;
   }
   .banner{
     height: 40vh;
+  }
+  .about p{
+    font-size: .7rem;
   }
   .bg_caption{
     font-size: 1.4rem;
@@ -612,11 +615,17 @@ footer p{
     font-size: .7rem;
     padding: 5% 0%;
   }
+  .howitworks{
+    margin-bottom: 15%;
+  }
   .serv-header h2{
     font-size: 1.4rem;
   }
   .services{
     margin: 2% 0.8%;
+  }
+  .features_links a{
+    font-size: 0.6rem;
   }
 .feature_landlord{
   width: 80%;
@@ -644,7 +653,7 @@ label{
   font-size: .6rem;
 }
 .blog_title{
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 .blog_image{
 width: 80%;
